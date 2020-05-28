@@ -1,0 +1,30 @@
+@media(max-width: 768px) {
+  .ticket__wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+}
+
+@media(max-width: 550px) {
+  .right-side {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .left-side {
+    min-width: 100%;
+  }
+
+  .block-right,
+  .block-left {
+    width: 100%;
+  }
+
+  .block-left {
+    margin-bottom: 20px;
+  }
+}
